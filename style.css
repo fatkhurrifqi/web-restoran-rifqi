@@ -401,6 +401,7 @@ section {
 }
 
 .contact .row .col-2 form {
+  position: relative;
   width: 30rem;
   margin: auto;
 }
@@ -437,6 +438,10 @@ textarea {
 .contact .row .col-2 form span {
   display: flex;
   gap: 2rem;
+}
+
+.contact .row .col-2 form i {
+  color: #fff;
 }
 
 .contact .row .col-2 form span input {
